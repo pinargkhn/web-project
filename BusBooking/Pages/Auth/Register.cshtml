@@ -1,0 +1,31 @@
+﻿@page
+@model BusBooking.Pages.Auth.RegisterModel
+@{
+}
+<div class="split left">
+    <div class="centered">
+        <a href="index.html"><img style="width: 100%" ; src="../images/logo.png" alt="logo"></a>
+        <p style="color:white" ;>Bus Booking</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="card">
+        <h2>Register</h2>
+        <form class="tg-formtheme tg-formtrip" method="post">
+            <fieldset>
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Enter your username">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <label for="new-password">New Password</label>
+            <input type="password" id="new-password" placeholder="Enter your new password">
+
+            <button type="button" onclick="toProfile()">Register</button>
+            </fieldset>
+        </form>
+        <div class="switch">Already have an account? <a href=logIn.html>Login here</a></div>
+    </div>
+</div>
