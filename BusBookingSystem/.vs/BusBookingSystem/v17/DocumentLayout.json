@@ -3,31 +3,39 @@
   "WorkspaceRootPath": "C:\\Users\\melek\\Documents\\GitHub\\web-project\\BusBookingSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|C:\\Users\\melek\\Documents\\GitHub\\web-project\\BusBookingSystem\\busbookingsystem\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|c:\\users\\melek\\documents\\github\\web-project\\busbookingsystem\\busbookingsystem\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|c:\\users\\melek\\documents\\github\\web-project\\busbookingsystem\\busbookingsystem\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|c:\\users\\melek\\documents\\github\\web-project\\busbookingsystem\\busbookingsystem\\pages\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\pages\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|c:\\users\\melek\\documents\\github\\web-project\\busbookingsystem\\busbookingsystem\\pages\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\pages\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|c:\\users\\melek\\documents\\github\\web-project\\busbookingsystem\\busbookingsystem\\pages\\book.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|C:\\Users\\melek\\Documents\\GitHub\\web-project\\BusBookingSystem\\busbookingsystem\\pages\\book.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\pages\\book.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|c:\\users\\melek\\documents\\github\\web-project\\busbookingsystem\\busbookingsystem\\pages\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|c:\\users\\melek\\documents\\github\\web-project\\busbookingsystem\\busbookingsystem\\usercontrols\\navigationmenu.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\usercontrols\\navigationmenu.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|c:\\users\\melek\\documents\\github\\web-project\\busbookingsystem\\busbookingsystem\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|C:\\Users\\melek\\Documents\\GitHub\\web-project\\BusBookingSystem\\busbookingsystem\\pages\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\pages\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|C:\\Users\\melek\\Documents\\GitHub\\web-project\\BusBookingSystem\\busbookingsystem\\pages\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\pages\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|C:\\Users\\melek\\Documents\\GitHub\\web-project\\BusBookingSystem\\busbookingsystem\\pages\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\pages\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|c:\\users\\melek\\documents\\github\\web-project\\busbookingsystem\\busbookingsystem\\pages\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|C:\\Users\\melek\\Documents\\GitHub\\web-project\\BusBookingSystem\\busbookingsystem\\pages\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\pages\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,37 +46,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "NavigationMenu.ascx",
+              "DocumentMoniker": "C:\\Users\\melek\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\UserControls\\NavigationMenu.ascx",
+              "RelativeDocumentMoniker": "BusBookingSystem\\UserControls\\NavigationMenu.ascx",
+              "ToolTip": "C:\\Users\\melek\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\UserControls\\NavigationMenu.ascx",
+              "RelativeToolTip": "BusBookingSystem\\UserControls\\NavigationMenu.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2024-12-20T17:22:05.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\melek\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Default.aspx",
+              "RelativeDocumentMoniker": "BusBookingSystem\\Default.aspx",
+              "ToolTip": "C:\\Users\\melek\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Default.aspx",
+              "RelativeToolTip": "BusBookingSystem\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-20T17:19:42.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "logIn.css",
               "DocumentMoniker": "C:\\Users\\melek\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\css\\logIn.css",
               "RelativeDocumentMoniker": "BusBookingSystem\\css\\logIn.css",
               "ToolTip": "C:\\Users\\melek\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\css\\logIn.css",
               "RelativeToolTip": "BusBookingSystem\\css\\logIn.css",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAewGYAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAACEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-12-20T17:09:50.121Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "register.css",
               "DocumentMoniker": "C:\\Users\\melek\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\css\\register.css",
               "RelativeDocumentMoniker": "BusBookingSystem\\css\\register.css",
               "ToolTip": "C:\\Users\\melek\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\css\\register.css",
               "RelativeToolTip": "BusBookingSystem\\css\\register.css",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGcAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-12-20T16:58:25.685Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Book.aspx",
               "DocumentMoniker": "C:\\Users\\melek\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Pages\\Book.aspx",
               "RelativeDocumentMoniker": "BusBookingSystem\\Pages\\Book.aspx",
@@ -81,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "register.aspx.cs",
               "DocumentMoniker": "C:\\Users\\melek\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Pages\\register.aspx.cs",
               "RelativeDocumentMoniker": "BusBookingSystem\\Pages\\register.aspx.cs",
@@ -89,12 +123,11 @@
               "RelativeToolTip": "BusBookingSystem\\Pages\\register.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T16:50:45.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-20T16:50:45.882Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "logIn.aspx.cs",
               "DocumentMoniker": "C:\\Users\\melek\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Pages\\logIn.aspx.cs",
               "RelativeDocumentMoniker": "BusBookingSystem\\Pages\\logIn.aspx.cs",
@@ -102,12 +135,11 @@
               "RelativeToolTip": "BusBookingSystem\\Pages\\logIn.aspx.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAkwCgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T16:50:44.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-20T16:50:44.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "register.aspx",
               "DocumentMoniker": "C:\\Users\\melek\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Pages\\register.aspx",
               "RelativeDocumentMoniker": "BusBookingSystem\\Pages\\register.aspx",
@@ -120,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "logIn.aspx",
               "DocumentMoniker": "C:\\Users\\melek\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Pages\\logIn.aspx",
               "RelativeDocumentMoniker": "BusBookingSystem\\Pages\\logIn.aspx",

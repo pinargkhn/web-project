@@ -13,7 +13,7 @@
 <body>
   <div class="split left">
     <div class="centered">
-     <a href="index.aspx"><img style= "width: 100%"; src="..\images\logo.png" alt="logo"/></a>
+     <a href="../Default.aspx"><img style= "width: 100%"; src="..\images\logo.png" alt="logo"/></a>
      <p style="color:white"; >Bus Booking</p>
     </div>
   </div>

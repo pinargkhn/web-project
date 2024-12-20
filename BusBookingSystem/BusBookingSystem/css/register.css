@@ -12,7 +12,7 @@
 
 .left {
     left: 0;
-    background-color: #CB997E;
+    background-color: #707070;
     width: 20%;
 }
 
@@ -82,7 +82,7 @@ button {
     padding: 10px;
     font-family: 'Righteous';
     font-size: 15px;
-    background-color: #EDDCD2;
+    background-color: #FF7550;
     color: #051726;
     border: none;
     border-radius: 5px;
@@ -101,5 +101,5 @@ button {
 
 a:hover,
 a:active {
-    color: #A5A58D;
+    color: #fcdf33;
 }
