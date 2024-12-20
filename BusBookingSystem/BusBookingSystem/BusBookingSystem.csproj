@@ -412,6 +412,7 @@
     <Content Include="js\WebForms\WebParts.js" />
     <Content Include="js\WebForms\WebUIValidation.js" />
     <Content Include="Pages\Book.aspx" />
+    <Content Include="Pages\CompanyBooking.aspx" />
     <Content Include="Pages\logIn.aspx" />
     <Content Include="Pages\register.aspx" />
     <Content Include="Site.Master" />
@@ -455,6 +456,13 @@
     </Compile>
     <Compile Include="Pages\Book.aspx.designer.cs">
       <DependentUpon>Book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CompanyBooking.aspx.cs">
+      <DependentUpon>CompanyBooking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\CompanyBooking.aspx.designer.cs">
+      <DependentUpon>CompanyBooking.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\logIn.aspx.cs">
       <DependentUpon>logIn.aspx</DependentUpon>
