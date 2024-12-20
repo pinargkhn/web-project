@@ -411,6 +411,7 @@
     <Content Include="js\WebForms\WebForms.js" />
     <Content Include="js\WebForms\WebParts.js" />
     <Content Include="js\WebForms\WebUIValidation.js" />
+    <Content Include="Pages\PastTrips.aspx" />
     <Content Include="Pages\Book.aspx" />
     <Content Include="Pages\CompanyBooking.aspx" />
     <Content Include="Pages\logIn.aspx" />
@@ -449,6 +450,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PastTrips.aspx.cs">
+      <DependentUpon>PastTrips.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\PastTrips.aspx.designer.cs">
+      <DependentUpon>PastTrips.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Book.aspx.cs">
       <DependentUpon>Book.aspx</DependentUpon>
