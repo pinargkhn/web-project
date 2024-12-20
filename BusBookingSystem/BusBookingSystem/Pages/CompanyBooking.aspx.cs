@@ -12,41 +12,7 @@ namespace BusBookingSystem.Pages
         {
             if (!IsPostBack)
             {
-                SeedBookings(); // Rastgele verileri ekle
-                LoadBookings(); // Veritabanını yükle
-            }
-        }
-
-        private void SeedBookings()
-        {
-            string connectionString = ConfigurationManager.ConnectionStrings["MySqlConnection"].ConnectionString;
-
-            using (MySqlConnection connection = new MySqlConnection(connectionString))
-            {
-                connection.Open();
-
-                // Rastgele veri eklemek için bir döngü
-                for (int i = 1; i <= 10; i++)
-                {
-                    string insertQuery = @"
-                        INSERT INTO bookings (CustomerID, BusID, BookingDate, Status)
-                        VALUES (@CustomerID, @BusID, @BookingDate, @Status)";
-
-                    using (MySqlCommand command = new MySqlCommand(insertQuery, connection))
-                    {
-                        Random random = new Random();
-                        int customerId = random.Next(1, 5); // Rastgele CustomerID (1-5 arasında)
-                        int busId = random.Next(1, 5); // Rastgele BusID (1-5 arasında)
-                        string status = (random.Next(0, 2) == 0) ? "Booked" : "Cancelled"; // Rastgele durum
-
-                        command.Parameters.AddWithValue("@CustomerID", customerId);
-                        command.Parameters.AddWithValue("@BusID", busId);
-                        command.Parameters.AddWithValue("@BookingDate", DateTime.Now.AddDays(random.Next(-30, 30))); // Rastgele tarih
-                        command.Parameters.AddWithValue("@Status", status);
-
-                        command.ExecuteNonQuery();
-                    }
-                }
+                LoadBookings();
             }
         }
 
@@ -57,11 +23,13 @@ namespace BusBookingSystem.Pages
             string query = @"
                 SELECT 
                     b.BookingID, 
-                    b.CustomerID AS CustomerName, 
-                    b.BusID AS BusName, 
+                    COALESCE(bs.BusName, 'Unknown') AS BusName, 
+                    COALESCE(bs.DepartureLocation, 'Unknown') AS DepartureLocation, 
+                    COALESCE(bs.ArrivalLocation, 'Unknown') AS ArrivalLocation, 
                     b.BookingDate, 
                     b.Status
-                FROM bookings b";
+                FROM bookings b
+                LEFT JOIN buses bs ON b.BusID = bs.BusID";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
