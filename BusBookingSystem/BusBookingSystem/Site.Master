@@ -202,9 +202,6 @@
 		<!--************************************
 				Header End
 		*************************************-->
-
-		<uc:MainSlider ID="MainSlider" runat="server" />
-
 		<!--************************************
 				Main Start
 		*************************************-->
@@ -214,7 +211,7 @@
 	<br />
 	<br />
 			<asp:ContentPlaceHolder ID="MainContent" runat="server">
-			<p>Default main content!</p>
+			
 			</asp:ContentPlaceHolder>
 		</main>
 		<!--************************************

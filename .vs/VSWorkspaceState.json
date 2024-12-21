@@ -3,9 +3,8 @@
     "",
     "\\BusBookingSystem",
     "\\BusBookingSystem\\BusBookingSystem",
-    "\\BusBookingSystem\\BusBookingSystem\\css",
     "\\BusBookingSystem\\BusBookingSystem\\Pages"
   ],
-  "SelectedNode": "\\BusBookingSystem\\BusBookingSystem\\Pages\\CompanyBooking.aspx",
+  "SelectedNode": "\\BusBookingSystem\\BusBookingSystem.sln",
   "PreviewInSolutionExplorer": false
 }
