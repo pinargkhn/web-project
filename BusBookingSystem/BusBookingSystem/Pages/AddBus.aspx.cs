@@ -40,5 +40,11 @@ namespace BusBookingSystem.Pages
             Session.Remove("AccessFrom");
             Response.Redirect("~/Pages/CompanyBus.aspx");
         }
+        protected void btnCancel_Click(object sender, EventArgs e)
+        {
+            // Session Temizleme ve Yönlendirme
+            Session.Remove("AccessFrom");
+            Response.Redirect("~/Pages/CompanyBus.aspx");
+        }
     }
 }

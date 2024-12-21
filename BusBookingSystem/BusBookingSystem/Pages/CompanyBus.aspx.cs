@@ -10,7 +10,6 @@ namespace BusBookingSystem.Pages
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            // Session Kontrolü
             if (Session["username"] == null || !(Session["isAdmin"] is bool && (bool)Session["isAdmin"]))
             {
                 Response.Redirect("~/Pages/Book.aspx");
@@ -19,6 +18,7 @@ namespace BusBookingSystem.Pages
             if (!IsPostBack)
             {
                 LoadBuses();
+                Session.Remove("AccessFrom");
             }
         }
 
@@ -55,6 +55,22 @@ namespace BusBookingSystem.Pages
             }
         }
 
+        protected void btnAddBus_Click(object sender, EventArgs e)
+        {
+            Session["AccessFrom"] = "CompanyBus";
+            Response.Redirect("~/Pages/AddBus.aspx");
+        }
+
+        protected void gvBuses_RowCommand(object sender, System.Web.UI.WebControls.GridViewCommandEventArgs e)
+        {
+            if (e.CommandName == "EditBus")
+            {
+                string busId = e.CommandArgument.ToString();
+                Session["AccessFrom"] = "CompanyBus";
+                Response.Redirect($"~/Pages/EditBus.aspx?BusID={busId}");
+            }
+        }
+
         protected void gvBuses_RowDeleting(object sender, System.Web.UI.WebControls.GridViewDeleteEventArgs e)
         {
             string busId = gvBuses.DataKeys[e.RowIndex].Value.ToString();
@@ -73,22 +89,6 @@ namespace BusBookingSystem.Pages
             }
 
             LoadBuses();
-        }
-
-        protected void gvBuses_RowCommand(object sender, System.Web.UI.WebControls.GridViewCommandEventArgs e)
-        {
-            if (e.CommandName == "EditBus")
-            {
-                string busId = e.CommandArgument.ToString();
-                Session["AccessFrom"] = "CompanyBus"; // Erişim kontrolü için ayar
-                Response.Redirect($"~/Pages/EditBus.aspx?BusID={busId}");
-            }
-        }
-
-        protected void btnAddBus_Click(object sender, EventArgs e)
-        {
-            Session["AccessFrom"] = "CompanyBus"; // Erişim kontrolü için ayar
-            Response.Redirect("~/Pages/AddBus.aspx");
         }
     }
 }

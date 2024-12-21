@@ -27,7 +27,7 @@
                 <asp:TextBox ID="txtSeats" runat="server" CssClass="form-control" />
             </div>
             <asp:Button ID="btnUpdate" runat="server" Text="Update" CssClass="btn btn-primary" OnClick="btnUpdate_Click" />
-            <asp:Button ID="btnCancel" runat="server" Text="Cancel" CssClass="btn btn-secondary" PostBackUrl="~/Pages/CompanyBus.aspx" />
+            <asp:Button ID="btnCancel" runat="server" Text="Cancel" CssClass="btn btn-secondary" OnClick="btnCancel_Click" />
         </div>
     </form>
 </asp:Content>

@@ -12,7 +12,7 @@
                     runat="server" 
                     Text="Add Bus" 
                     CssClass="btn btn-primary" 
-                    PostBackUrl="~/Pages/AddBus.aspx" />
+                    OnClick="btnAddBus_Click" />
             </div>
 
             <!-- Buses Table -->
