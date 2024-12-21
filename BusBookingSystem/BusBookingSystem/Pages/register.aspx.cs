@@ -21,11 +21,11 @@ namespace Web
             string mail = email.Value.Trim();
             string pass = newPassword.Value.Trim();
 
-            if (Validation.UsernameLength(user) && Validation.Password(pass) && Validation.Mail(mail))
+            if (Validation.UsernameLength(user) && Validation.Password(pass) && Validation.Mail(mail) && !Query.IsTaken(user))
             {
                 Response.Write("<script>alert('Register successful')</script>");
+                Query.Register(user, mail, pass);
                 Session["username"] = user;
-                Response.Redirect($"~/profile.aspx?username={user}");
             }
             else if (!Validation.UsernameLength(user))
             {
@@ -35,9 +35,13 @@ namespace Web
             {
                 Response.Write("<script>alert('Password has to contain one digit and letter also cannot be less than 8 or more than 50')</script>");
             }
-            else if(!Validation.Mail(mail))
+            else if (!Validation.Mail(mail))
             {
                 Response.Write("<script>alert('Invalid Mail!')</script>");
+            }
+            else if (Query.IsTaken(user))
+            {
+                Response.Write("<script>alert('Username Is Taken!')</script>");
             }
             else Response.Write("<script>alert('Something wrong happened!')</script>");
         }

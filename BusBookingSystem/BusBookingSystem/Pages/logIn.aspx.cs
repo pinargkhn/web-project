@@ -13,7 +13,7 @@ namespace Web
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         protected void LoginSubmitButton(object sender, EventArgs e)
@@ -21,7 +21,7 @@ namespace Web
             string user = username.Value.Trim();
             string pass = password.Value.Trim();
 
-            if (Validation.UsernameLength(user) && Validation.PasswordLength(pass))
+            if (Validation.UsernameLength(user) && Validation.PasswordLength(pass) && Query.Login(user, pass))
             {
                 Response.Write("<script>alert('Login successful')</script>");
                 Session["username"] = user;
@@ -35,7 +35,11 @@ namespace Web
             {
                 Response.Write("<script>alert('Password cannot be less than 8 or more than 50')</script>");
             }
-            else  Response.Write("<script>alert('Something wrong happened!')</script>");
+            else if (!Query.Login(user, pass))
+            {
+                Response.Write("<script>alert('Username or password is wrong!')</script>");
+            }
+            else Response.Write("<script>alert('Something wrong happened!')</script>");
         }
     }
 }
