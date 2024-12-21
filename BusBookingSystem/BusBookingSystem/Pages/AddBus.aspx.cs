@@ -8,6 +8,11 @@ namespace BusBookingSystem.Pages
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            // Yönlendirme kontrolü
+            if (Session["AccessFrom"] == null || Session["AccessFrom"].ToString() != "CompanyBus")
+            {
+                Response.Redirect("~/Pages/CompanyBus.aspx");
+            }
         }
 
         protected void btnSubmit_Click(object sender, EventArgs e)
@@ -31,7 +36,8 @@ namespace BusBookingSystem.Pages
                 }
             }
 
-            // Redirect to the Manage Buses page
+            // Session Temizleme ve Yönlendirme
+            Session.Remove("AccessFrom");
             Response.Redirect("~/Pages/CompanyBus.aspx");
         }
     }

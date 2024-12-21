@@ -10,6 +10,12 @@ namespace BusBookingSystem.Pages
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            // Session Kontrolü
+            if (Session["username"] == null || !(Session["isAdmin"] is bool && (bool)Session["isAdmin"]))
+            {
+                Response.Redirect("~/Pages/Book.aspx");
+            }
+
             if (!IsPostBack)
             {
                 LoadBuses();
@@ -74,8 +80,15 @@ namespace BusBookingSystem.Pages
             if (e.CommandName == "EditBus")
             {
                 string busId = e.CommandArgument.ToString();
+                Session["AccessFrom"] = "CompanyBus"; // Erişim kontrolü için ayar
                 Response.Redirect($"~/Pages/EditBus.aspx?BusID={busId}");
             }
+        }
+
+        protected void btnAddBus_Click(object sender, EventArgs e)
+        {
+            Session["AccessFrom"] = "CompanyBus"; // Erişim kontrolü için ayar
+            Response.Redirect("~/Pages/AddBus.aspx");
         }
     }
 }

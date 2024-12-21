@@ -20,12 +20,14 @@ namespace Web
         {
             string user = username.Value.Trim();
             string pass = password.Value.Trim();
+            bool isAdmin = true;
 
             if (Validation.UsernameLength(user) && Validation.PasswordLength(pass) && Query.Login(user, pass))
             {
                 Response.Write("<script>alert('Login successful')</script>");
                 Session["username"] = user;
-                Response.Redirect($"~/Pages/Book.aspx?username={user}");
+                Session["isAdmin"] = isAdmin;
+                Response.Redirect($"~/Pages/CompanyBus.aspx?username={user}-isAdmin={isAdmin}");
             }
             else if (!Validation.UsernameLength(user))
             {
