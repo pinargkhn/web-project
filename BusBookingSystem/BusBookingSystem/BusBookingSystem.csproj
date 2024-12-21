@@ -411,6 +411,9 @@
     <Content Include="js\WebForms\WebForms.js" />
     <Content Include="js\WebForms\WebParts.js" />
     <Content Include="js\WebForms\WebUIValidation.js" />
+    <Content Include="Pages\AddBus.aspx" />
+    <Content Include="Pages\CompanyBus.aspx" />
+    <Content Include="Pages\EditBus.aspx" />
     <Content Include="Pages\PastTrips.aspx" />
     <Content Include="Pages\Book.aspx" />
     <Content Include="Pages\CompanyBooking.aspx" />
@@ -450,6 +453,27 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AddBus.aspx.cs">
+      <DependentUpon>AddBus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\AddBus.aspx.designer.cs">
+      <DependentUpon>AddBus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CompanyBus.aspx.cs">
+      <DependentUpon>CompanyBus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\CompanyBus.aspx.designer.cs">
+      <DependentUpon>CompanyBus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\EditBus.aspx.cs">
+      <DependentUpon>EditBus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\EditBus.aspx.designer.cs">
+      <DependentUpon>EditBus.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\PastTrips.aspx.cs">
       <DependentUpon>PastTrips.aspx</DependentUpon>

@@ -88,7 +88,8 @@ CREATE TABLE `users` (
   `PasswordHash` varchar(255) NOT NULL,
   `Email` varchar(255) NOT NULL,
   `CompanyID` int(11) NOT NULL DEFAULT 0,
-  `IsAdmin` int(1) NOT NULL DEFAULT 0
+  `IsAdmin` int(1) NOT NULL DEFAULT 0,
+  `IsDeveloper` int(1) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
