@@ -19,7 +19,7 @@ namespace Web
         public static bool Login(string usr, string pass)
         {
             MySqlConnection conn = new MySqlConnection(connAdress);
-            command = "SELECT * FROM Users WHERE <Username=@user AND PasswordHash=@pass";
+            command = "SELECT * FROM Users WHERE Username=@user AND PasswordHash=@pass";
             MySqlCommand cmd = new MySqlCommand(command, conn);
             cmd.Parameters.AddWithValue("@user", usr);
             cmd.Parameters.AddWithValue("@pass", pass);

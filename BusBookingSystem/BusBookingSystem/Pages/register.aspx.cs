@@ -26,6 +26,7 @@ namespace Web
                 Response.Write("<script>alert('Register successful')</script>");
                 Query.Register(user, mail, pass);
                 Session["username"] = user;
+                Response.Redirect($"~/Pages/Book.aspx?username={user}");
             }
             else if (!Validation.UsernameLength(user))
             {

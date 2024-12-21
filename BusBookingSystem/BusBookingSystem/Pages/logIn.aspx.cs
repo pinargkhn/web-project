@@ -25,7 +25,7 @@ namespace Web
             {
                 Response.Write("<script>alert('Login successful')</script>");
                 Session["username"] = user;
-                Response.Redirect($"~/profile.aspx?username={user}");
+                Response.Redirect($"~/Pages/Book.aspx?username={user}");
             }
             else if (!Validation.UsernameLength(user))
             {
