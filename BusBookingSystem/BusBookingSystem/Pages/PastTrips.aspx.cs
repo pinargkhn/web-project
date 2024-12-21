@@ -3,6 +3,7 @@ using System.Data;
 using MySql.Data.MySqlClient;
 using System.Configuration;
 using System.Web.UI;
+using System.Web.UI.WebControls;
 
 namespace BusBookingSystem.Pages
 {
@@ -12,11 +13,11 @@ namespace BusBookingSystem.Pages
         {
             if (!IsPostBack)
             {
-                LoadTrips();
+                LoadPastTrips();
             }
         }
 
-        private void LoadTrips()
+        private void LoadPastTrips()
         {
             string connectionString = ConfigurationManager.ConnectionStrings["MySqlConnection"].ConnectionString;
 
@@ -29,7 +30,8 @@ namespace BusBookingSystem.Pages
                     b.BookingDate, 
                     b.Status
                 FROM bookings b
-                LEFT JOIN buses bs ON b.BusID = bs.BusID";
+                LEFT JOIN buses bs ON b.BusID = bs.BusID
+                WHERE b.CustomerID = 0";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -38,21 +40,54 @@ namespace BusBookingSystem.Pages
                     connection.Open();
                     using (MySqlDataReader reader = command.ExecuteReader())
                     {
-                        DataTable tripsTable = new DataTable();
-                        tripsTable.Load(reader);
+                        DataTable pastTripsTable = new DataTable();
+                        pastTripsTable.Load(reader);
 
-                        if (tripsTable.Rows.Count > 0)
+                        if (pastTripsTable.Rows.Count > 0)
                         {
-                            gvTrips.DataSource = tripsTable;
-                            gvTrips.DataBind();
-                            lblNoTrips.Visible = false;
+                            gvPastTrips.DataSource = pastTripsTable;
+                            gvPastTrips.DataBind();
+                            lblNoPastTrips.Visible = false;
                         }
                         else
                         {
-                            gvTrips.DataSource = null;
-                            gvTrips.DataBind();
-                            lblNoTrips.Visible = true;
+                            gvPastTrips.DataSource = null;
+                            gvPastTrips.DataBind();
+                            lblNoPastTrips.Visible = true;
                         }
+                    }
+                }
+            }
+        }
+
+        protected void gvPastTrips_RowCommand(object sender, GridViewCommandEventArgs e)
+        {
+            if (e.CommandName == "CancelTrip")
+            {
+                int bookingId = Convert.ToInt32(e.CommandArgument);
+                CancelBooking(bookingId);
+            }
+        }
+
+        private void CancelBooking(int bookingId)
+        {
+            string connectionString = ConfigurationManager.ConnectionStrings["MySqlConnection"].ConnectionString;
+
+            string updateQuery = "UPDATE bookings SET Status = 'Cancelled' WHERE BookingID = @BookingID";
+
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                using (MySqlCommand command = new MySqlCommand(updateQuery, connection))
+                {
+                    command.Parameters.AddWithValue("@BookingID", bookingId);
+
+                    connection.Open();
+                    int rowsAffected = command.ExecuteNonQuery();
+
+                    if (rowsAffected > 0)
+                    {
+                        // Refresh the grid after successful update
+                        LoadPastTrips();
                     }
                 }
             }

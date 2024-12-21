@@ -1,78 +1,50 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="PastTrips.aspx.cs" Inherits="BusBookingSystem.Pages.PastTrips" %>
+﻿<%@ Page Title="Past Trips" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="~/Pages/PastTrips.aspx.cs" Inherits="BusBookingSystem.Pages.PastTrips" %>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Past Trips</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        body {
-            background-color: #FF8260;
-            font-family: Arial, sans-serif;
-            padding: 20px;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background-color: #FFF;
-            border-radius: 8px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-        }
-        h1 {
-            color: #707070;
-            font-weight: bold;
-        }
-        .table {
-            margin-top: 20px;
-            border-radius: 8px;
-            overflow: hidden;
-        }
-        .thead-dark {
-            background-color: #969696;
-            color: #FFF;
-        }
-        .table-hover tbody tr:hover {
-            background-color: #FFD7B5;
-        }
-    </style>
-</head>
-<body>
+<asp:Content ID="PastTripsContent" ContentPlaceHolderID="MainContent" runat="server">
     <form id="form1" runat="server">
-        <div class="container">
-            <h1 class="text-center">Past Trips</h1>
+        <!-- Main Content -->
+        <div class="container bg-white rounded shadow-sm p-4 mt-5">
+            <h1 class="text-center text-success font-weight-bold">Past Trips</h1>
             <div class="table-responsive mt-4">
                 <asp:GridView 
-                    ID="gvTrips" 
+                    ID="gvPastTrips" 
                     runat="server" 
                     CssClass="table table-striped table-hover" 
-                    AutoGenerateColumns="False">
+                    AutoGenerateColumns="False" 
+                    OnRowCommand="gvPastTrips_RowCommand">
                     <Columns>
-                        <asp:BoundField DataField="BookingID" HeaderText="Trip ID" />
+                        <asp:BoundField DataField="BookingID" HeaderText="Booking ID" />
                         <asp:BoundField DataField="BusName" HeaderText="Bus Name" />
                         <asp:BoundField DataField="DepartureLocation" HeaderText="Departure" />
                         <asp:BoundField DataField="ArrivalLocation" HeaderText="Arrival" />
                         <asp:BoundField DataField="BookingDate" HeaderText="Date" DataFormatString="{0:yyyy-MM-dd}" />
                         <asp:BoundField DataField="Status" HeaderText="Status" />
+                        <asp:TemplateField>
+                            <ItemTemplate>
+                                <%-- Cancel butonu yalnızca "Booked" durumunda gösterilir --%>
+                                <asp:Button 
+                                    ID="btnCancel" 
+                                    runat="server" 
+                                    CommandName="CancelTrip" 
+                                    CommandArgument='<%# Eval("BookingID") %>' 
+                                    Text="Cancel" 
+                                    CssClass="btn btn-danger btn-sm"
+                                    Visible='<%# Eval("Status").ToString() == "Booked" %>'
+                                    OnClientClick="return confirm('Are you sure you want to cancel this trip?');" />
+                            </ItemTemplate>
+                        </asp:TemplateField>
                     </Columns>
                 </asp:GridView>
 
                 <!-- No results message -->
                 <asp:Label 
-                    ID="lblNoTrips" 
+                    ID="lblNoPastTrips" 
                     runat="server" 
-                    CssClass="info-message" 
+                    CssClass="text-center text-danger mt-3 d-block" 
                     Visible="false" 
-                    Text="No trips found.">
+                    Text="No past trips found.">
                 </asp:Label>
             </div>
         </div>
     </form>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+</asp:Content>
