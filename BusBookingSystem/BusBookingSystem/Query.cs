@@ -56,5 +56,26 @@ namespace Web
             if (dr.Read()) return true;
             else return false;
         }
+        public static int GetCustomerID(string username)
+        {
+            int customerId = 0;
+            string connectionString = ConfigurationManager.ConnectionStrings["MySqlConnection"].ConnectionString;
+
+            string query = "SELECT UserID FROM USERS WHERE Username = @Username";
+
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                using (MySqlCommand command = new MySqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@Username", username);
+
+                    connection.Open();
+                    customerId = Convert.ToInt32(command.ExecuteScalar());
+                }
+            }
+
+            return customerId;
+        }
     }
+
 }

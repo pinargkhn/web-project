@@ -1,47 +1,32 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-using System.Data.SqlClient;
+using System.Data;
+using MySql.Data.MySqlClient;
 using System.Configuration;
+using System.Web.UI;
 
 namespace Web
 {
     public partial class logIn : System.Web.UI.Page
     {
-        protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
         protected void LoginSubmitButton(object sender, EventArgs e)
         {
             string user = username.Value.Trim();
             string pass = password.Value.Trim();
-            bool isAdmin = true;
 
             if (Validation.UsernameLength(user) && Validation.PasswordLength(pass) && Query.Login(user, pass))
             {
-                Response.Write("<script>alert('Login successful')</script>");
-                Session["username"] = user;
-                Session["isAdmin"] = isAdmin;
-                Response.Redirect($"~/Pages/CompanyBus.aspx?username={user}-isAdmin={isAdmin}");
+                int customerId = Query.GetCustomerID(user); // Kullanıcı ID'sini veritabanından al
+                Session["Username"] = user;
+                Session["CustomerID"] = customerId; // Session'a CustomerID ekle
+
+                Response.Redirect("~/Pages/PastTrips.aspx");
             }
-            else if (!Validation.UsernameLength(user))
-            {
-                Response.Write("<script>alert('Username cannot be less than 3 or more than 50')</script>");
-            }
-            else if (!Validation.PasswordLength(pass))
-            {
-                Response.Write("<script>alert('Password cannot be less than 8 or more than 50')</script>");
-            }
-            else if (!Query.Login(user, pass))
+            else
             {
                 Response.Write("<script>alert('Username or password is wrong!')</script>");
             }
-            else Response.Write("<script>alert('Something wrong happened!')</script>");
         }
     }
+
+    
 }

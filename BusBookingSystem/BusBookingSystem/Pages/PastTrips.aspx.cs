@@ -11,6 +11,12 @@ namespace BusBookingSystem.Pages
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            // Kullanıcı giriş kontrolü
+            if (Session["CustomerID"] == null)
+            {
+                Response.Redirect("~/Pages/Book.aspx"); // Kullanıcı giriş yapmamışsa yönlendirme
+            }
+
             if (!IsPostBack)
             {
                 LoadPastTrips();
@@ -19,6 +25,9 @@ namespace BusBookingSystem.Pages
 
         private void LoadPastTrips()
         {
+            // Session'dan CustomerID alınır
+            int customerId = Convert.ToInt32(Session["CustomerID"]);
+
             string connectionString = ConfigurationManager.ConnectionStrings["MySqlConnection"].ConnectionString;
 
             string query = @"
@@ -31,12 +40,14 @@ namespace BusBookingSystem.Pages
                     b.Status
                 FROM bookings b
                 LEFT JOIN buses bs ON b.BusID = bs.BusID
-                WHERE b.CustomerID = 0";
+                WHERE b.CustomerID = @CustomerID"; // Kullanıcıya ait kayıtları getir
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 using (MySqlCommand command = new MySqlCommand(query, connection))
                 {
+                    command.Parameters.AddWithValue("@CustomerID", customerId);
+
                     connection.Open();
                     using (MySqlDataReader reader = command.ExecuteReader())
                     {
