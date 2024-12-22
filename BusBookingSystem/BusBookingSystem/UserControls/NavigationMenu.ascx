@@ -11,10 +11,10 @@
     </div>
     <div id="tg-navigation" class="collapse navbar-collapse tg-navigation">
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/Pages/Book">Start Booking</a></li>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/Pages/Book">START BOOKING</a></li>
             <asp:Literal ID="loginMenu" runat="server" Visible="false">
-            <li class="menu-item-has-children"><a href="javascript:void(0);">Login</a>
+            <li class="menu-item-has-children"><a href="javascript:void(0);">LOGIN</a>
                 <ul class="sub-menu">
                     <li><a href="../Pages/register.aspx">Register</a></li>
                     <li><a href="../Pages/logIn.aspx">Login</a></li>
@@ -22,10 +22,16 @@
             </li>
             </asp:Literal>
             <asp:Literal ID="adminMenu" runat="server" Visible="false">
-                <li><a href="/Pages/CompanyBus">Company Dashboard</a></li>
+                <li><a href="/Pages/CompanyBus">COMPANY DASHBOARD</a></li>
             </asp:Literal>
             <asp:Literal ID="developerMenu" runat="server" Visible="false">
-                <li><a href="/Pages/Dashboards">Admin Dashboard</a></li>
+                <li><a href="/Pages/Dashboards">ADMIN DASHBOARD</a></li>
+            </asp:Literal>
+            <asp:Literal ID="pastTrips" runat="server" Visible="false">
+            <li><a href="/Pages/PastTrips">PAST TRIPS</a></li>
+            </asp:Literal>
+            <asp:Literal ID="logOut" runat="server" Visible="false">
+            <li><a href="/Pages/LogOut"</a>LOGOUT</li>
             </asp:Literal>
         </ul>
     </div>

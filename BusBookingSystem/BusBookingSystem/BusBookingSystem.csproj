@@ -317,6 +317,7 @@
     <Content Include="images\products\img-10.jpg" />
     <Content Include="images\products\img-11.jpg" />
     <Content Include="images\singup-img.jpg" />
+    <Content Include="images\slider\SliderBackground.png" />
     <Content Include="images\slider\img-01.jpg" />
     <Content Include="images\slider\img-02.jpg" />
     <Content Include="images\slider\img-03.jpg" />
@@ -427,6 +428,7 @@
     <Content Include="Pages\Dashboard\Users_AddUser.aspx" />
     <Content Include="Pages\Dashboard\Users_EditUser.aspx" />
     <Content Include="Pages\EditBus.aspx" />
+    <Content Include="Pages\LogOut.aspx" />
     <Content Include="Pages\PastTrips.aspx" />
     <Content Include="Pages\Book.aspx" />
     <Content Include="Pages\CompanyBooking.aspx" />
@@ -579,6 +581,13 @@
     </Compile>
     <Compile Include="Pages\EditBus.aspx.designer.cs">
       <DependentUpon>EditBus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\LogOut.aspx.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\LogOut.aspx.designer.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\PastTrips.aspx.cs">
       <DependentUpon>PastTrips.aspx</DependentUpon>

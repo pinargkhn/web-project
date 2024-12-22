@@ -4,7 +4,7 @@
 				Home Slider Start
 *************************************-->
 		<div class="tg-bannerholder">
-			<div class="tg-slidercontent">
+			<div class="tg-slidercontent" style="background-image: url('images/slider/SliderBackground.png'); background-size: cover";>
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">

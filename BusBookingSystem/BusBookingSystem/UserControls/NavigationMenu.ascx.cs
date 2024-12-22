@@ -16,6 +16,8 @@ namespace BusBookingSystem.UserControls
                 adminMenu.Visible = isAdmin;
                 developerMenu.Visible = isDeveloper;
                 loginMenu.Visible = !isLoggedIn;
+                pastTrips.Visible = isLoggedIn;
+                logOut.Visible = isLoggedIn;
             }
         }
     }
