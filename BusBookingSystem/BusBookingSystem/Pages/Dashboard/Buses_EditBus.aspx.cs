@@ -8,6 +8,11 @@ namespace BusBookingSystem.Pages
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["AccessFrom"] == null || Session["AccessFrom"].ToString() != "CompanyBus")
+            {
+                Response.Redirect("~/Pages/Dashboard/Buses.aspx");
+            }
+
             if (!IsPostBack)
             {
                 string busId = Request.QueryString["BusID"];

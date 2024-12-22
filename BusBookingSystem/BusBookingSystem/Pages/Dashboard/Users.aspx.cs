@@ -55,6 +55,7 @@ namespace BusBookingSystem.Pages
 
             if (e.CommandName == "EditUser")
             {
+                Session["AccessFrom"] = "CompanyBus";
                 Response.Redirect($"~/Pages/Dashboard/Users_EditUser.aspx?UserID={userId}");
             }
             else if (e.CommandName == "DeleteUser")
@@ -66,6 +67,7 @@ namespace BusBookingSystem.Pages
 
         protected void btnAddUser_Click(object sender, EventArgs e)
         {
+            Session["AccessFrom"] = "CompanyBus";
             Response.Redirect("~/Pages/Dashboard/Users_AddUser.aspx");
         }
 

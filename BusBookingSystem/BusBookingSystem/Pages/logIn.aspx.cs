@@ -17,11 +17,24 @@ namespace Web
             {
                 int customerId = Query.GetCustomerID(user); // Kullanıcı ID'sini veritabanından al
                 bool isAdmin = Query.isAdmin(user); // Kullanıcı ID'sini veritabanından al
+                bool isDeveloper = Query.isDeveloper(user); // Kullanıcı ID'sini veritabanından al
                 Session["Username"] = user;
                 Session["CustomerID"] = customerId; // Session'a CustomerID ekle
                 Session["IsAdmin"] = isAdmin; // Session'a CustomerID ekle
+                Session["IsDeveloper"] = isDeveloper; // Session'a CustomerID ekle
 
-                Response.Redirect("~/Pages/Dashboards.aspx");
+                if (isAdmin)
+                { 
+                    Response.Redirect("~/Pages/CompanyBus.aspx");
+                }
+                else if (isDeveloper)
+                {
+                    Response.Redirect("~/Pages/Dashboards.aspx");
+                }
+                else
+                {
+                    Response.Redirect("~/Pages/Book.aspx");
+                }
             }
             else
             {

@@ -45,6 +45,7 @@ namespace BusBookingSystem.Pages
             {
                 // Edit sayfasına yönlendirme
                 int busId = Convert.ToInt32(e.CommandArgument);
+                Session["AccessFrom"] = "CompanyBus";
                 Response.Redirect($"~/Pages/Dashboard/Buses_EditBus.aspx?BusID={busId}");
             }
             else if (e.CommandName == "DeleteBus")
@@ -74,6 +75,7 @@ namespace BusBookingSystem.Pages
 
         protected void btnAddBus_Click(object sender, EventArgs e)
         {
+            Session["AccessFrom"] = "CompanyBus";
             // Add sayfasına yönlendirme
             Response.Redirect("~/Pages/Dashboard/Buses_AddBus.aspx");
         }

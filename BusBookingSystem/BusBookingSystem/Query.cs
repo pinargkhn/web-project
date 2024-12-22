@@ -96,6 +96,26 @@ namespace Web
 
             return isAdmin;
         }
+        public static bool isDeveloper(string username)
+        {
+            bool isDeveloper = false;
+            string connectionString = ConfigurationManager.ConnectionStrings["MySqlConnection"].ConnectionString;
+
+            string query = "SELECT IsDeveloper FROM USERS WHERE Username = @Username";
+
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                using (MySqlCommand command = new MySqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@Username", username);
+
+                    connection.Open();
+                    isDeveloper = Convert.ToBoolean(command.ExecuteScalar());
+                }
+            }
+
+            return isDeveloper;
+        }
     }
 
 }

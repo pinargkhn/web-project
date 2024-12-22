@@ -6,6 +6,14 @@ namespace BusBookingSystem.Pages
 {
     public partial class Buses_AddBus : System.Web.UI.Page
     {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (Session["AccessFrom"] == null || Session["AccessFrom"].ToString() != "CompanyBus")
+            {
+                Response.Redirect("~/Pages/Dashboard/Buses.aspx");
+            }
+        }
+
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
             string busName = txtBusName.Text.Trim();
