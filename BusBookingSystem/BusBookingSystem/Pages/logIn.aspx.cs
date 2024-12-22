@@ -16,10 +16,12 @@ namespace Web
             if (Validation.UsernameLength(user) && Validation.PasswordLength(pass) && Query.Login(user, pass))
             {
                 int customerId = Query.GetCustomerID(user); // Kullanıcı ID'sini veritabanından al
+                bool isAdmin = Query.isAdmin(user); // Kullanıcı ID'sini veritabanından al
                 Session["Username"] = user;
                 Session["CustomerID"] = customerId; // Session'a CustomerID ekle
+                Session["IsAdmin"] = isAdmin; // Session'a CustomerID ekle
 
-                Response.Redirect("~/Pages/PastTrips.aspx");
+                Response.Redirect("~/Pages/Dashboards.aspx");
             }
             else
             {

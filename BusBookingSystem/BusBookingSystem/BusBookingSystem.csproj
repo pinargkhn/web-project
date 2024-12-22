@@ -413,6 +413,19 @@
     <Content Include="js\WebForms\WebUIValidation.js" />
     <Content Include="Pages\AddBus.aspx" />
     <Content Include="Pages\CompanyBus.aspx" />
+    <Content Include="Pages\Dashboards.aspx" />
+    <Content Include="Pages\Dashboard\Bookings_AddBooking.aspx" />
+    <Content Include="Pages\Dashboard\Bookings_EditBooking.aspx" />
+    <Content Include="Pages\Dashboard\Buses_AddBus.aspx" />
+    <Content Include="Pages\Dashboard\Bookings.aspx" />
+    <Content Include="Pages\Dashboard\Buses.aspx" />
+    <Content Include="Pages\Dashboard\Companies.aspx" />
+    <Content Include="Pages\Dashboard\Buses_EditBus.aspx" />
+    <Content Include="Pages\Dashboard\Companies_AddCompany.aspx" />
+    <Content Include="Pages\Dashboard\Companies_EditCompany.aspx" />
+    <Content Include="Pages\Dashboard\Users.aspx" />
+    <Content Include="Pages\Dashboard\Users_AddUser.aspx" />
+    <Content Include="Pages\Dashboard\Users_EditUser.aspx" />
     <Content Include="Pages\EditBus.aspx" />
     <Content Include="Pages\PastTrips.aspx" />
     <Content Include="Pages\Book.aspx" />
@@ -467,6 +480,97 @@
     </Compile>
     <Compile Include="Pages\CompanyBus.aspx.designer.cs">
       <DependentUpon>CompanyBus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Dashboards.aspx.cs">
+      <DependentUpon>Dashboards.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Dashboards.aspx.designer.cs">
+      <DependentUpon>Dashboards.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Dashboard\Bookings_AddBooking.aspx.cs">
+      <DependentUpon>Bookings_AddBooking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Dashboard\Bookings_AddBooking.aspx.designer.cs">
+      <DependentUpon>Bookings_AddBooking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Dashboard\Bookings_EditBooking.aspx.cs">
+      <DependentUpon>Bookings_EditBooking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Dashboard\Bookings_EditBooking.aspx.designer.cs">
+      <DependentUpon>Bookings_EditBooking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Dashboard\Buses_AddBus.aspx.cs">
+      <DependentUpon>Buses_AddBus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Dashboard\Buses_AddBus.aspx.designer.cs">
+      <DependentUpon>Buses_AddBus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Dashboard\Bookings.aspx.cs">
+      <DependentUpon>Bookings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Dashboard\Bookings.aspx.designer.cs">
+      <DependentUpon>Bookings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Dashboard\Buses.aspx.cs">
+      <DependentUpon>Buses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Dashboard\Buses.aspx.designer.cs">
+      <DependentUpon>Buses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Dashboard\Companies.aspx.cs">
+      <DependentUpon>Companies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Dashboard\Companies.aspx.designer.cs">
+      <DependentUpon>Companies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Dashboard\Buses_EditBus.aspx.cs">
+      <DependentUpon>Buses_EditBus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Dashboard\Buses_EditBus.aspx.designer.cs">
+      <DependentUpon>Buses_EditBus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Dashboard\Companies_AddCompany.aspx.cs">
+      <DependentUpon>Companies_AddCompany.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Dashboard\Companies_AddCompany.aspx.designer.cs">
+      <DependentUpon>Companies_AddCompany.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Dashboard\Companies_EditCompany.aspx.cs">
+      <DependentUpon>Companies_EditCompany.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Dashboard\Companies_EditCompany.aspx.designer.cs">
+      <DependentUpon>Companies_EditCompany.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Dashboard\Users.aspx.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Dashboard\Users.aspx.designer.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Dashboard\Users_AddUser.aspx.cs">
+      <DependentUpon>Users_AddUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Dashboard\Users_AddUser.aspx.designer.cs">
+      <DependentUpon>Users_AddUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Dashboard\Users_EditUser.aspx.cs">
+      <DependentUpon>Users_EditUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Dashboard\Users_EditUser.aspx.designer.cs">
+      <DependentUpon>Users_EditUser.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\EditBus.aspx.cs">
       <DependentUpon>EditBus.aspx</DependentUpon>

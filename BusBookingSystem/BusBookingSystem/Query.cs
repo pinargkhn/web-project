@@ -76,6 +76,26 @@ namespace Web
 
             return customerId;
         }
+        public static bool isAdmin(string username)
+        {
+            bool isAdmin = false;
+            string connectionString = ConfigurationManager.ConnectionStrings["MySqlConnection"].ConnectionString;
+
+            string query = "SELECT IsAdmin FROM USERS WHERE Username = @Username";
+
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                using (MySqlCommand command = new MySqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@Username", username);
+
+                    connection.Open();
+                    isAdmin = Convert.ToBoolean(command.ExecuteScalar());
+                }
+            }
+
+            return isAdmin;
+        }
     }
 
 }

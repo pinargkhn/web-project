@@ -16,7 +16,7 @@
                         <asp:BoundField DataField="BusName" HeaderText="Bus Name" />
                         <asp:BoundField DataField="DepartureLocation" HeaderText="Departure" />
                         <asp:BoundField DataField="ArrivalLocation" HeaderText="Arrival" />
-                        <asp:BoundField DataField="BookingDate" HeaderText="Date" DataFormatString="{0:yyyy-MM-dd}" />
+                        <asp:BoundField DataField="BookingDate" HeaderText="Date" DataFormatString="{0:yyyy-MM-dd}"/>
                         <asp:BoundField DataField="Status" HeaderText="Status" />
                     </Columns>
                 </asp:GridView>

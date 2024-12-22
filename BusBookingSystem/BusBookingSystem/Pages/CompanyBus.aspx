@@ -30,7 +30,7 @@
                         <asp:BoundField DataField="BusName" HeaderText="Bus Name" />
                         <asp:BoundField DataField="DepartureLocation" HeaderText="Departure" />
                         <asp:BoundField DataField="ArrivalLocation" HeaderText="Arrival" />
-                        <asp:BoundField DataField="DepartureTime" HeaderText="Time" />
+                        <asp:BoundField DataField="DepartureTime" HeaderText="Time" DataFormatString="{0:yyyy-MM-dd}"/>
                         <asp:BoundField DataField="SeatsAvailable" HeaderText="Seats" />
                         <asp:CommandField ShowDeleteButton="True" HeaderText="Actions" />
                         <asp:TemplateField HeaderText="Edit">

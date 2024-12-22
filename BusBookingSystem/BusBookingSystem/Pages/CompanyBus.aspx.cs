@@ -24,9 +24,18 @@ namespace BusBookingSystem.Pages
 
         private void LoadBuses()
         {
+            int customerId = Convert.ToInt32(Session["CustomerID"]);
+
             string connectionString = ConfigurationManager.ConnectionStrings["MySqlConnection"].ConnectionString;
 
-            string query = "SELECT BusID, BusName, DepartureLocation, ArrivalLocation, COALESCE(DepartureTime, '1970-01-01 00:00:00') AS DepartureTime, SeatsAvailable FROM buses";
+            string query = @"SELECT 
+                BusID, 
+                BusName, 
+                DepartureLocation, 
+                ArrivalLocation, 
+                COALESCE(DepartureTime, '1970-01-01 00:00:00') AS DepartureTime, 
+                SeatsAvailable 
+                FROM buses ";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
