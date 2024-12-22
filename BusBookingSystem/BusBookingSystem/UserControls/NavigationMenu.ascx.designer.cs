@@ -7,38 +7,38 @@
 // </otomatik olarak oluşturulmuş>
 //------------------------------------------------------------------------------
 
-namespace BusBookingSystem
+namespace BusBookingSystem.UserControls
 {
 
 
-    public partial class SiteMaster
+    public partial class NavigationMenu
     {
 
         /// <summary>
-        /// NavigationMenu denetimi.
+        /// loginMenu denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik olarak oluşturulan alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::BusBookingSystem.UserControls.NavigationMenu NavigationMenu;
+        protected global::System.Web.UI.WebControls.Literal loginMenu;
 
         /// <summary>
-        /// MainContent denetimi.
+        /// adminMenu denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik olarak oluşturulan alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
+        protected global::System.Web.UI.WebControls.Literal adminMenu;
 
         /// <summary>
-        /// Footer denetimi.
+        /// developerMenu denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik olarak oluşturulan alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.UserControl Footer;
+        protected global::System.Web.UI.WebControls.Literal developerMenu;
     }
 }

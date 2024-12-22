@@ -7,38 +7,47 @@
 // </otomatik olarak oluşturulmuş>
 //------------------------------------------------------------------------------
 
-namespace BusBookingSystem
+namespace BusBookingSystem.UserControls
 {
 
 
-    public partial class SiteMaster
+    public partial class MainSlider
     {
 
         /// <summary>
-        /// NavigationMenu denetimi.
+        /// departureLocation denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik olarak oluşturulan alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::BusBookingSystem.UserControls.NavigationMenu NavigationMenu;
+        protected global::System.Web.UI.WebControls.TextBox departureLocation;
 
         /// <summary>
-        /// MainContent denetimi.
+        /// arrivalLocation denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik olarak oluşturulan alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
+        protected global::System.Web.UI.WebControls.TextBox arrivalLocation;
 
         /// <summary>
-        /// Footer denetimi.
+        /// txtDate denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik olarak oluşturulan alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.UserControl Footer;
+        protected global::System.Web.UI.WebControls.TextBox txtDate;
+
+        /// <summary>
+        /// btnSearch denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik olarak oluşturulan alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnSearch;
     }
 }

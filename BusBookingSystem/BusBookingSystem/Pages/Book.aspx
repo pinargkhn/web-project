@@ -27,15 +27,18 @@
 						<br />
 						<br />
 
+						<asp:TextBox ID="txtSeatCount" runat="server" CssClass="form-control" placeholder="Seat Count To Book"></asp:TextBox>
+                        <br />
 						<!-- Results Table -->
 						<asp:GridView ID="gvBuses" runat="server" CssClass="table table-striped" AutoGenerateColumns="False" OnRowCommand="gvBuses_RowCommand">
 							<Columns>
 								<asp:BoundField DataField="BusID" HeaderText="Bus ID" />
 								<asp:BoundField DataField="BusName" HeaderText="Bus Name" />
-								<asp:BoundField DataField="DepartureLocation" HeaderText="DepartureLocation" />
-								<asp:BoundField DataField="ArrivalLocation" HeaderText="ArrivalLocation" />
-								<asp:BoundField DataField="DepartureTime" HeaderText="DepartureTime" DataFormatString="{0:yyyy-MM-dd}"/>
-								<asp:BoundField DataField="SeatsAvailable" HeaderText="SeatsAvailable" />
+								<asp:BoundField DataField="DepartureLocation" HeaderText="Departure Location" />
+								<asp:BoundField DataField="ArrivalLocation" HeaderText="Arrival Location" />
+								<asp:BoundField DataField="DepartureTime" HeaderText="Departure Time" DataFormatString="{0:yyyy-MM-dd}"/>
+								<asp:BoundField DataField="SeatsAvailable" HeaderText="Seats Available" />
+
 								<asp:TemplateField>
 									<ItemTemplate>
 										<asp:Button ID="btnBook" runat="server" Text="Book" CommandName="Book" CommandArgument='<%# Eval("BusID") %>' CssClass="btn btn-primary" />
@@ -43,7 +46,7 @@
 								</asp:TemplateField>
 							</Columns>
 						</asp:GridView>
-					
+
 						<!-- No Results Message -->
 						<asp:Label ID="lblNoResults" runat="server" CssClass="info-message" Visible="false" Text="No buses found matching your search criteria."></asp:Label>
 						<br />

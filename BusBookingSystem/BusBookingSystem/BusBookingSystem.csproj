@@ -433,6 +433,7 @@
     <Content Include="Pages\logIn.aspx" />
     <Content Include="Pages\register.aspx" />
     <Content Include="Site.Master" />
+    <Content Include="UserControls\Footer.ascx" />
     <Content Include="UserControls\MainSlider.ascx" />
     <Content Include="UserControls\NavigationMenu.ascx" />
     <Content Include="ViewSwitcher.ascx" />
@@ -630,6 +631,18 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\MainSlider.ascx.cs">
+      <DependentUpon>MainSlider.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\MainSlider.ascx.designer.cs">
+      <DependentUpon>MainSlider.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\NavigationMenu.ascx.cs">
+      <DependentUpon>NavigationMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\NavigationMenu.ascx.designer.cs" />
     <Compile Include="Validation.cs" />
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
