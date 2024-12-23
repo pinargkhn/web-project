@@ -31,7 +31,7 @@
             <li><a href="/Pages/PastTrips">PAST TRIPS</a></li>
             </asp:Literal>
             <asp:Literal ID="logOut" runat="server" Visible="false">
-            <li><a href="/Pages/LogOut"</a>LOGOUT</li>
+            <li><a href="/Pages/LogOut">LOGOUT</a></li>
             </asp:Literal>
         </ul>
     </div>

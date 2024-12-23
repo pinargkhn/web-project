@@ -651,7 +651,9 @@
       <DependentUpon>NavigationMenu.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserControls\NavigationMenu.ascx.designer.cs" />
+    <Compile Include="UserControls\NavigationMenu.ascx.designer.cs">
+      <DependentUpon>NavigationMenu.ascx.cs</DependentUpon>
+    </Compile>
     <Compile Include="Validation.cs" />
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

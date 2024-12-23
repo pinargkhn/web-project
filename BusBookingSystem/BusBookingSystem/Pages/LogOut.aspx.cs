@@ -11,6 +11,8 @@ namespace BusBookingSystem.Pages
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (IsPostBack) return;
+
             Session.Clear();
             Response.Redirect("~/Pages/LogIn.aspx");
         }

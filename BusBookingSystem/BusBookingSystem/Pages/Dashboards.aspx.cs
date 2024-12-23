@@ -7,9 +7,12 @@ namespace BusBookingSystem.Pages
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["Username"] == null || Session["IsDeveloper"] == null || !(bool)Session["IsDeveloper"])
+            if (!IsPostBack)
             {
-                Response.Redirect("~/Pages/logIn.aspx");
+                if (Session["Username"] == null || Session["IsDeveloper"] == null || !(bool)Session["IsDeveloper"])
+                {
+                    Response.Redirect("~/Pages/logIn.aspx");
+                }
             }
         }
 

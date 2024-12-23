@@ -3,44 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|c:\\users\\monster\\documents\\github\\web-project\\busbookingsystem\\busbookingsystem\\pages\\book.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\pages\\book.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|c:\\users\\monster\\documents\\github\\web-project\\busbookingsystem\\busbookingsystem\\usercontrols\\mainslider.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
-      "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\usercontrols\\mainslider.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|c:\\users\\monster\\documents\\github\\web-project\\busbookingsystem\\busbookingsystem\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|c:\\users\\monster\\documents\\github\\web-project\\busbookingsystem\\busbookingsystem\\pages\\book.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\busbookingsystem\\pages\\book.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\pages\\book.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|c:\\users\\monster\\documents\\github\\web-project\\busbookingsystem\\busbookingsystem\\pages\\logout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\pages\\logout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|c:\\users\\monster\\documents\\github\\web-project\\busbookingsystem\\busbookingsystem\\usercontrols\\navigationmenu.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
       "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\usercontrols\\navigationmenu.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|c:\\users\\monster\\documents\\github\\web-project\\busbookingsystem\\busbookingsystem\\usercontrols\\navigationmenu.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\busbookingsystem\\usercontrols\\navigationmenu.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\usercontrols\\navigationmenu.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|c:\\users\\monster\\documents\\github\\web-project\\busbookingsystem\\busbookingsystem\\pages\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\pages\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\busbookingsystem\\pages\\book.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\pages\\book.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|c:\\users\\monster\\documents\\github\\web-project\\busbookingsystem\\busbookingsystem\\pages\\logout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\pages\\logout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\busbookingsystem\\pages\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\pages\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|c:\\users\\monster\\documents\\github\\web-project\\busbookingsystem\\busbookingsystem\\query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\busbookingsystem\\pages\\companybus.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\pages\\companybus.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\busbookingsystem\\pages\\logout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\pages\\logout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\busbookingsystem\\pages\\dashboards.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA81A008-6D6C-4B3E-9817-AE5B8FF11808}|BusBookingSystem\\BusBookingSystem.csproj|solutionrelative:busbookingsystem\\pages\\dashboards.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,115 +42,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainSlider.ascx",
-              "DocumentMoniker": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\UserControls\\MainSlider.ascx",
-              "RelativeDocumentMoniker": "BusBookingSystem\\UserControls\\MainSlider.ascx",
-              "ToolTip": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\UserControls\\MainSlider.ascx",
-              "RelativeToolTip": "BusBookingSystem\\UserControls\\MainSlider.ascx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
-              "WhenOpened": "2024-12-22T20:21:20.417Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LogOut.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Pages\\LogOut.aspx.cs",
-              "RelativeDocumentMoniker": "BusBookingSystem\\Pages\\LogOut.aspx.cs",
-              "ToolTip": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Pages\\LogOut.aspx.cs",
-              "RelativeToolTip": "BusBookingSystem\\Pages\\LogOut.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T20:14:31.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LogOut.aspx",
-              "DocumentMoniker": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Pages\\LogOut.aspx",
-              "RelativeDocumentMoniker": "BusBookingSystem\\Pages\\LogOut.aspx",
-              "ToolTip": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Pages\\LogOut.aspx",
-              "RelativeToolTip": "BusBookingSystem\\Pages\\LogOut.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-22T20:14:26.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "NavigationMenu.ascx.cs",
               "DocumentMoniker": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\UserControls\\NavigationMenu.ascx.cs",
               "RelativeDocumentMoniker": "BusBookingSystem\\UserControls\\NavigationMenu.ascx.cs",
               "ToolTip": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\UserControls\\NavigationMenu.ascx.cs",
               "RelativeToolTip": "BusBookingSystem\\UserControls\\NavigationMenu.ascx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T20:08:14.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NavigationMenu.ascx",
-              "DocumentMoniker": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\UserControls\\NavigationMenu.ascx",
-              "RelativeDocumentMoniker": "BusBookingSystem\\UserControls\\NavigationMenu.ascx",
-              "ToolTip": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\UserControls\\NavigationMenu.ascx",
-              "RelativeToolTip": "BusBookingSystem\\UserControls\\NavigationMenu.ascx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
-              "WhenOpened": "2024-12-22T19:51:28.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Query.cs",
-              "DocumentMoniker": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Query.cs",
-              "RelativeDocumentMoniker": "BusBookingSystem\\Query.cs",
-              "ToolTip": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Query.cs",
-              "RelativeToolTip": "BusBookingSystem\\Query.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T19:50:41.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Site.Master",
-              "DocumentMoniker": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Site.Master",
-              "RelativeDocumentMoniker": "BusBookingSystem\\Site.Master",
-              "ToolTip": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Site.Master",
-              "RelativeToolTip": "BusBookingSystem\\Site.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-22T19:47:55.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T09:51:58.52Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Book.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Pages\\Book.aspx.cs",
-              "RelativeDocumentMoniker": "BusBookingSystem\\Pages\\Book.aspx.cs",
-              "ToolTip": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Pages\\Book.aspx.cs",
-              "RelativeToolTip": "BusBookingSystem\\Pages\\Book.aspx.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T19:48:30.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Book.aspx",
               "DocumentMoniker": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Pages\\Book.aspx",
               "RelativeDocumentMoniker": "BusBookingSystem\\Pages\\Book.aspx",
@@ -166,20 +66,80 @@
               "RelativeToolTip": "BusBookingSystem\\Pages\\Book.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-22T19:44:11.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T09:49:07.791Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "logIn.aspx",
-              "DocumentMoniker": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Pages\\logIn.aspx",
-              "RelativeDocumentMoniker": "BusBookingSystem\\Pages\\logIn.aspx",
-              "ToolTip": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Pages\\logIn.aspx",
-              "RelativeToolTip": "BusBookingSystem\\Pages\\logIn.aspx",
+              "Title": "Dashboards.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Pages\\Dashboards.aspx.cs",
+              "RelativeDocumentMoniker": "BusBookingSystem\\Pages\\Dashboards.aspx.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Pages\\Dashboards.aspx.cs",
+              "RelativeToolTip": "BusBookingSystem\\Pages\\Dashboards.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T09:43:49.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LogOut.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Pages\\LogOut.aspx.cs",
+              "RelativeDocumentMoniker": "BusBookingSystem\\Pages\\LogOut.aspx.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Pages\\LogOut.aspx.cs",
+              "RelativeToolTip": "BusBookingSystem\\Pages\\LogOut.aspx.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T09:36:42.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CompanyBus.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Pages\\CompanyBus.aspx.cs",
+              "RelativeDocumentMoniker": "BusBookingSystem\\Pages\\CompanyBus.aspx.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Pages\\CompanyBus.aspx.cs",
+              "RelativeToolTip": "BusBookingSystem\\Pages\\CompanyBus.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T09:36:07.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavigationMenu.ascx",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\UserControls\\NavigationMenu.ascx",
+              "RelativeDocumentMoniker": "BusBookingSystem\\UserControls\\NavigationMenu.ascx",
+              "ToolTip": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\UserControls\\NavigationMenu.ascx",
+              "RelativeToolTip": "BusBookingSystem\\UserControls\\NavigationMenu.ascx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-22T12:58:12.224Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2024-12-23T09:33:55.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "logIn.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Pages\\logIn.aspx.cs",
+              "RelativeDocumentMoniker": "BusBookingSystem\\Pages\\logIn.aspx.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Pages\\logIn.aspx.cs",
+              "RelativeToolTip": "BusBookingSystem\\Pages\\logIn.aspx.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T09:24:23.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Book.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Pages\\Book.aspx.cs",
+              "RelativeDocumentMoniker": "BusBookingSystem\\Pages\\Book.aspx.cs",
+              "ToolTip": "C:\\Users\\MONSTER\\Documents\\GitHub\\web-project\\BusBookingSystem\\BusBookingSystem\\Pages\\Book.aspx.cs",
+              "RelativeToolTip": "BusBookingSystem\\Pages\\Book.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T19:48:30.256Z",
               "EditorCaption": ""
             }
           ]
