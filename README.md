@@ -4,7 +4,7 @@ A **web-based bus booking platform** built with **ASP.NET Web Forms**, **C#**, a
 
 ---
 
-## 📖 Table of Contents
+##  Table of Contents
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Technologies](#technologies)
