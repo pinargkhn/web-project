@@ -26,7 +26,7 @@ A **web-based bus booking platform** built with **ASP.NET Web Forms**, **C#**, a
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 Managing bus reservations manually is often **inefficient and error-prone**. This project delivers a **digital solution** that simplifies booking processes, improves management efficiency, and enhances user experience.
 
 The platform provides:
